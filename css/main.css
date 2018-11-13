@@ -57,10 +57,17 @@ html {
 
   color: #fff;
   text-decoration: none;
+  outline: 1px solid #fff;
 }
 
 .masthead a:hover {
   background-color: rgba(180, 220, 255, .3);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.masthead a:focus {
+  background-color: rgba(0, 0, 0, .6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .techniques {
